@@ -1,0 +1,279 @@
+/* .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 120px;
+}
+.navbar a{
+  text-decoration: none;
+}
+
+.Nlogo img {
+  height: 90px;
+  width: 105px;
+  object-fit: cover;
+  border-radius: 43%;
+}
+
+.Nlogo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  padding-left: 15px;
+}
+
+.Nlogo h2{
+  font-size: 25px;
+  color: #000400;
+  padding-bottom: 10px;
+  text-shadow: 1px 1px 0 #0b94c5, 2px 2px 3px #9f999b;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  list-style: none;
+  padding-bottom: 10px;
+  padding-right: 40px;
+}
+
+.nav-links a {
+  color: #333;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.donate-btn {
+  background-color: #003346;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.donate-btn:hover {
+  background-color: #0f232a;
+}
+
+@media (max-width: 1050px) {
+  .nav-links {
+    gap: 50px;
+    padding-right: 30px;
+  }
+
+  .navbar {
+    padding: 15px 30px;
+  }
+}
+
+@media (max-width: 900px) {
+  .nav-links {
+    gap: 30px;
+    padding-right: 20px;
+  }
+
+  .Nlogo img {
+    height: 80px;
+    width: 90px;
+  }
+
+  .Nlogo h2 {
+    font-size: 18px;
+  }
+
+  .donate-btn {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 750px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+  }
+
+  .Nlogo {
+    justify-content: center;
+    padding: 0;
+  }
+
+  .donate-btn {
+    width: 100%;
+    padding: 12px;
+  }
+}
+
+@media (max-width: 749px) {
+  .navbar {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 20px;
+    height: auto;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .donate-btn {
+    display: none;
+  }
+
+  .Nlogo {
+    padding: 0;
+    gap: 8px;
+  }
+
+  .Nlogo h2 {
+    font-size: 18px;
+  }
+
+  .Nlogo img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+  }
+} */
+
+/* ✅ Base styles (mobile-first) */
+.navbar {
+ display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 1.5rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 10;
+  flex-wrap: wrap;
+}
+
+.Nlogo {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.Nlogo img {
+  height: 4.5rem;
+  width: auto;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.Nlogo h2 {
+  font-size: 1.25rem;
+  color: #000400;
+  text-shadow: 1px 1px 0 #0b94c5, 2px 2px 3px #9f999b;
+}
+
+/* Nav links */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-direction: row;
+  position: static;
+  background: none;
+  width: auto;
+  box-shadow: none;
+}
+
+.nav-links a {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 500;
+   text-decoration: none;
+}
+
+.donate-btn {
+  background-color: #003346;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.donate-btn:hover {
+  background-color: #0f232a;
+}
+
+.hamburger {
+  display: none;
+  font-size: 1.8rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    flex-direction: column;
+    background: #fff;
+    width: 100%;
+    padding: 1.5rem;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+    z-index: 5;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .donate-btn {
+    width: 100%;
+  }
+}
+
+/* ✅ Desktops and larger (≥ 1024px) */
+@media (min-width: 1024px) {
+  .Nlogo h2 {
+    font-size: 1.5rem;
+  }
+
+  .Nlogo img {
+    height: 5rem;
+  }
+
+  .nav-links a {
+    font-size: 1.1rem;
+  }
+
+  .donate-btn {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+  }
+}
