@@ -19,9 +19,18 @@ const Donate = () => {
     };
 
     const handleDonateClick = (amount) => {
-        console.log("Donate clicked with amount:", amount);  
-        const numericAmount = amount.replace(/[^0-9]/g, ''); // removes commas and ₹
-        const upiBase = `${upiLink}&am=${numericAmount}`;
+        console.log("Donate clicked with amount:", amount);
+        const numericAmount = amount.replace(/[^0-9]/g, ''); // Removes ₹, commas etc.
+
+        const upiPaymentLink = `${upiLink}&am=${numericAmount}`;
+
+        const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+        if (isMobile) {
+            window.location.href = upiPaymentLink;
+        } else {
+            alert("Please open this site on a UPI-supported mobile device to complete the donation.");
+        }
     };
 
     const donationOptions = [
