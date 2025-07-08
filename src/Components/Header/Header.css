@@ -204,6 +204,11 @@
 
 /* ✅ Large screens (≥1024px) */
 @media (min-width: 1024px) {
+
+   .header img {
+      height: 100vh;
+  }
+
   .overlay h1 {
     font-size: 3rem;
   }
