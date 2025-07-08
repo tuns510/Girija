@@ -58,8 +58,8 @@ const Home = () => {
           <p><span>Children Helped:</span> 25 children enrolled in schools and rehabilitated</p>
           <p><span>Schools Partnered:</span> New English School, Nere; Nere High School; Nere Junior Arts and Commerce College</p>
           <div className="impact-btn">
-            <button className='btn-primary'>Donate Now</button>
-            <button className='btn-secondary'>Learn More</button>
+            <Link to='/donate-now'><button className='btn-primary'>Donate Now</button></Link>
+            <Link to='/about'><button className='btn-secondary'>Learn More</button></Link>
           </div>
         </div>
         <div id="Impact-img">

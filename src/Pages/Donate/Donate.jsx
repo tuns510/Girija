@@ -5,7 +5,7 @@ import Footer from '../../Components/Footer/Footer';
 
 const Donate = () => {
 
-    const upiLink = "upi://pay?pa=123190910194@boi&pn=GIRIJA%20FOUNDATION&tn=Donation&cu=INR";
+    const upiLink = "upi://pay?pa=boim-123190910194@boi&pn=GIRIJA%20FOUNDATION&tn=Donation&cu=INR";
 
 
     const handleCopy = (text) => {
@@ -95,7 +95,7 @@ const Donate = () => {
 
                     <div className="payment-box">
                         <div className="payment-title">Donate Through GPay</div>
-                        <p><strong>UPI ID -</strong> 123190910194@boi <button className="copy-btn" onClick={() => handleCopy("123190910194@boi")} >Copy</button></p>
+                        <p><strong>UPI ID -</strong> boim-123190910194@boi <button className="copy-btn" onClick={() => handleCopy("123190910194@boi")} >Copy</button></p>
 
                         <div className="gpay-flex">
                             <img src={assets.gpay} alt="GPay logo" className="gpaylogo" />
