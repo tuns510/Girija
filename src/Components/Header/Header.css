@@ -184,6 +184,10 @@
 /* ✅ Medium screens (≥768px) */
 @media (min-width: 768px) {
 
+  .header img {
+      height: 100vh;
+  }
+
   .overlay h1 {
     font-size: 2.5rem;
   }
