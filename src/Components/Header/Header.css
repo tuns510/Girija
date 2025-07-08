@@ -133,7 +133,6 @@
   height: 100%;
   object-fit: cover;
   display: block;
-  border-radius: 0.5rem;
 }
 
 /* Overlay */
@@ -184,6 +183,11 @@
 
 /* ✅ Medium screens (≥768px) */
 @media (min-width: 768px) {
+
+  .header img {
+    height: 70vh;
+  }
+
   .overlay h1 {
     font-size: 2.5rem;
   }
