@@ -3,6 +3,8 @@ import './Home.css'
 import Header from '../../Components/Header/Header'
 import { assets } from '../../assets/assets'
 import Footer from '../../Components/Footer/Footer'
+import { Link } from 'react-router-dom'
+
 const Home = () => {
   return (
     <div>
