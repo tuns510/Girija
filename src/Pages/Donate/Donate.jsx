@@ -7,6 +7,7 @@ const Donate = () => {
 
     const upiLink = "upi://pay?pa=boim-123190910194@boi&pn=GIRIJA%20FOUNDATION&tn=Donation&cu=INR";
 
+    const [isProcessing, setIsProcessing] = React.useState(false);
 
     const handleCopy = (text) => {
         navigator.clipboard.writeText(text)
@@ -31,6 +32,9 @@ const Donate = () => {
         } else {
             alert("Please open this site on a UPI-supported mobile device to complete the donation.");
         }
+
+
+        setTimeout(() => setIsProcessing(false), 5000); // Unlock after 5 seconds
     };
 
     const donationOptions = [
