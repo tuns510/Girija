@@ -3,7 +3,6 @@ import Navbar from './Components/Navbar/Navbar'
 import Home from './Pages/Home/Home'
 import { Route, Routes } from 'react-router-dom'
 import About from './Pages/About/About'
-import ContactUs from './Pages/Contact/ContactUs'
 import Donate from './Pages/Donate/Donate'
 
 const App = () => {
