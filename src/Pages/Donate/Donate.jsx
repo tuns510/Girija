@@ -5,7 +5,7 @@ import Footer from '../../Components/Footer/Footer';
 
 const Donate = () => {
 
-    const upiLink = "upi://pay?pa=boim-123190910194@boi&pn=GIRIJA%20FOUNDATION&tn=Donation&cu=INR";
+    const upiLink = "upi://pay?pa=boim-123190910194@boi&pn=GIRIJA%20FOUNDATION&cu=INR";
 
     const [isProcessing, setIsProcessing] = React.useState(false);
 
