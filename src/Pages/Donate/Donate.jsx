@@ -20,10 +20,14 @@ const Donate = () => {
     };
 
     const handleDonateClick = (amount) => {
-        console.log("Donate clicked with amount:", amount);
-        const numericAmount = amount.replace(/[^0-9]/g, ''); // Removes ₹, commas etc.
+        setIsProcessing(true);
 
-        const upiPaymentLink = `${upiLink}&am=${numericAmount}`;
+        const numericAmount = amount.replace(/[^0-9]/g, '');
+
+        // Add a unique transaction reference ID
+        const randomRef = `GIRIJA${Date.now()}`;
+
+        const upiPaymentLink = `${upiLink}&am=${numericAmount}&tr=${randomRef}`;
 
         const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
@@ -33,8 +37,7 @@ const Donate = () => {
             alert("Please open this site on a UPI-supported mobile device to complete the donation.");
         }
 
-
-        setTimeout(() => setIsProcessing(false), 5000); // Unlock after 5 seconds
+        setTimeout(() => setIsProcessing(false), 5000);
     };
 
     const donationOptions = [
