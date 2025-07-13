@@ -8,7 +8,7 @@ const Header = () => {
       <img src={assets.Hero} alt="" />
       <div className="overlay">
         <h1>Girija Foundation - A Home for <br/> Every Child in Need</h1>
-        <p>Giving vulnerable children a safe space, education,<br/> and a brighter future since 2010.</p>
+        <p>Giving vulnerable children a safe space, education,<br/> and a brighter future since 2004.</p>
         <Link to='/donate-now'><button className="donate-hero">Donate Now</button></Link>
       </div>
     </div>

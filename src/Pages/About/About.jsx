@@ -22,10 +22,10 @@ const About = () => {
       <section id="about-section">
         <h2>About Girija</h2>
         <p>
-          <strong>Girija Welfare Association</strong>, registered under Regd. No. F/13899/Thane, is a charitable organization dedicated to serving humanity by uplifting children from vulnerable and underprivileged backgrounds. Founded with the mission to provide a safe, nurturing environment for children who have no secure place to call home - such as orphans, children from broken families, or those living in poverty - the association established Girija Balgruha, a residential shelter home in Kharghar, Navi Mumbai, in June 2010. The shelter caters to children aged 6 to 18, offering them not only food, clothing, and a safe place to live, but also access to formal and non-formal education, health care, life skills training, and emotional counseling.
+          <strong>Girija Foundation</strong>, registered under Regd. No. U85300MH2023NPL396618, is a charitable organization dedicated to serving humanity by uplifting children from vulnerable and underprivileged backgrounds. Founded with the mission to provide a safe, nurturing environment for children who have no secure place to call home - such as orphans, children from broken families, or those living in poverty - the Foundation established Girija Balgruha, a residential shelter home in Panvel, Navi Mumbai, in 2004. The shelter caters to children aged 6 to 18, offering them not only food, clothing, and a safe place to live, but also access to formal and non-formal education, health care, life skills training, and emotional counseling.
         </p>
         <p>
-          With a focus on holistic development, the shelter has successfully rehabilitated over 20 children by enrolling them in mainstream schools and guiding them toward a brighter, more stable future. The association also engages with parents or guardians when possible, working towards reintegration and long-term well-being. Girija Welfare Association stands as a beacon of hope, committed to transforming lives and giving every child a chance to thrive.
+          With a focus on holistic development, the shelter has successfully rehabilitated over 300+ children by enrolling them in mainstream schools and guiding them toward a brighter, more stable future. The Foundation also engages with parents or guardians when possible, working towards reintegration and long-term well-being. Girija Foundation stands as a beacon of hope, committed to transforming lives and giving every child a chance to thrive.
         </p>
       </section>
 
@@ -92,7 +92,7 @@ const About = () => {
           </div>
           <div className="team-member">
             <img src={assets.baby} alt="Navin Kumar" />
-            <p>Navin Kumar <span>(Founder)</span></p>
+            <p>Isha Sapling <span>(Daughter)</span></p>
           </div>
         </div>
       </section>
@@ -115,7 +115,7 @@ const About = () => {
             <div className="contact-card">
               <h3 className="card-title">📍 Address</h3>
               <p className="card-text">
-                Girija Foundation - Om Bungalow no.324,<br />
+                Girija Foundation: Om Bungalow no.324,<br />
                 Matheran Road Nere, New Panvel<br/> 410206.
               </p>
             </div>
@@ -124,8 +124,8 @@ const About = () => {
             <div className="contact-card">
               <h3 className="card-title">📞 Contact</h3>
               <p className="card-text">
-                📧 Email: abcd@gmail.com<br />
-                📱 Number: 8899347381
+                📧 Email: girijafoundationngo@gmail.com<br />
+                📱 Number: 9969339091 / 8767196323
               </p>
             </div>
           </div>

@@ -447,6 +447,9 @@
     .stat-box p {
       font-size: 0.95rem;
     }
+    .card-text {
+      font-size: 13.5px;
+    }
 
   }
 

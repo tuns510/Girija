@@ -57,7 +57,7 @@ const Home = () => {
           <h2>Our Impact</h2>
           <p><span>Location:</span> Panvel–Matheran Road, Nere</p>
           <p><span>Established:</span> June 2004</p>
-          <p><span>Children Helped:</span> 25 children enrolled in schools and rehabilitated</p>
+          <p><span>Children Helped:</span> 300+ children enrolled in schools and rehabilitated</p>
           <p><span>Schools Partnered:</span> New English School, Nere; Nere High School; Nere Junior Arts and Commerce College</p>
           <div className="impact-btn">
             <Link to='/donate-now'><button className='btn-primary'>Donate Now</button></Link>

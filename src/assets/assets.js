@@ -19,13 +19,16 @@ import a2 from './a2.jpeg'
 import a3 from './a3.jpeg'
 import d1 from './d1.jpeg'
 import d2 from './d2.jpeg'
-import qr1 from './qr1.jpeg'
-import upi from './upi.png'
-import gpay from './gpay.webp'
 import baby from './baby.jpeg'
 import abthero from './abthero.jpeg'
 import sgp2 from './sgp2.jpeg'
 import gs from './gs.jpeg'
+import boii from './boii.jpg'
+import qrnew from './qrnew.jpeg'
+
+
+
+
 
 
 
@@ -52,12 +55,11 @@ export const assets ={
     a3,
     d1,
     d2,
-    qr1,
-    upi,
-    gpay,
     baby,
     abthero,
     sgp2,
-    gs
+    gs,
+    boii,
+    qrnew
 
 }
