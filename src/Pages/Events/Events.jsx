@@ -9,7 +9,7 @@ const Events = () => {
         <div>
             <div className="container">
 
-                <h1>Gallery / Events</h1>
+                <h4>Gallery / Events</h4>
 
                 <div className="grid">
 
