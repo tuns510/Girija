@@ -25,15 +25,24 @@ import sgp2 from './sgp2.jpeg'
 import gs from './gs.jpeg'
 import boii from './boii.jpg'
 import qrnew from './qrnew.jpeg'
+import christmas from './christmas.jpeg'
+import GOI from './GOI.jpeg'
+import science from './science.jpeg'
+import dy from './dy.jpeg'
+import fun from './fun.jpeg'
+import diwali from './diwali.jpeg'
+import bday from './bday.jpeg'
+import wday from './wday.jpeg'
+import books from './books.jpeg'
+import dec31 from './dec31.jpeg'
+import eyecheck from './eyecheck.jpeg'
+import ganesha from './ganesha.jpeg'
+import movie from './movie.jpeg'
+import masti from './masti.jpeg'
+import school from './school.jpeg'
+import toy from './toy.jpeg'
 
-
-
-
-
-
-
-
-export const assets ={
+export const assets = {
     logo,
     Hero,
     img1,
@@ -60,6 +69,24 @@ export const assets ={
     sgp2,
     gs,
     boii,
-    qrnew
+    qrnew,
+    christmas,
+    GOI,
+    science,
+    dy,
+    fun,
+    diwali,
+    bday,
+    wday,
+    books,
+    dec31,
+    eyecheck,
+    ganesha,
+    movie,
+    masti,
+    school,
+    toy
+
+
 
 }

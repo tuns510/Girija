@@ -27,6 +27,7 @@ const Navbar = () => {
 
       <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
         <li><Link to='/about' onClick={closeMenu}>About Us</Link></li>
+        <li><Link to='/events' onClick={closeMenu}>Events</Link></li>
         <li><Link to='/donate-now' onClick={closeMenu}><button className="donate-btn">Donate now</button></Link></li>
       </ul>
 

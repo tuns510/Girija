@@ -8,15 +8,6 @@
      font-family: Arial, sans-serif;
  }
 
- .extra {
-     height: 50px;
-     background-color: #d8d8d8;
-     padding: 15px 70px;
-     color: #111111;
-     font-weight: 500;
- }
-
-
  /* Hero Section */
  .hero-section {
      position: relative;

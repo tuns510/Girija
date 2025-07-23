@@ -6,9 +6,6 @@ import { Link } from 'react-router-dom'
 const About = () => {
   return (
     <div className='aboutus'>
-      <div className="extra">
-        <p>Home &gt; About Us</p>
-      </div>
 
       <div className="about-hero">
         <img src={assets.abthero} alt="Group of children and adults" className="about-hero-img" />

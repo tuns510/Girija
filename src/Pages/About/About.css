@@ -8,14 +8,6 @@
     padding: 0;
   }
 
-  .extra {
-    height: 50px;
-    background-color: #d8d8d8;
-    padding: 15px 70px;
-    color: #111111;
-    font-weight: 500;
-  }
-
   .about-hero {
     position: relative;
     width: 100%;
@@ -61,6 +53,7 @@
     font-size: 1rem;
     font-weight: 700;
     margin-bottom: 1rem;
+    color: #fff;
     white-space: nowrap;
   }
 

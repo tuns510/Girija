@@ -18,10 +18,9 @@ const Footer = () => {
             <a href='/'><h2>GIRIJA FOUNDATION </h2></a>
            </div>
           <div className="footer-socials">
-            <FaFacebookF />
-            <FaLinkedinIn />
-            <FaYoutube />
-            <FaInstagram />
+            <a href="https://www.facebook.com/share/1C9ni93aBU/"><FaFacebookF /></a>
+            <a href="https://youtube.com/@girijafoundation9531?si=wZl6597LZPGu9a7a"><FaYoutube /></a>
+            <a href="https://www.instagram.com/girija_ngo_panvel?igsh=b2xrcXB1dTVycnVh"><FaInstagram /></a>
           </div>
         </div>
 

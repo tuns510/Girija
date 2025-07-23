@@ -18,11 +18,7 @@ const Donate = () => {
 
     return (
         <div className='donate'>
-
-            <div className="extra">
-                <p>Home &gt; Donate</p>
-            </div>
-
+            
             <div className="hero-section">
                 <img src={assets.p4} alt="Donate Hero" className="hero-image" />
                 <div className="hero-text">DONATE</div>
