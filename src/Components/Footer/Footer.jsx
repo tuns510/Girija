@@ -2,7 +2,8 @@ import React from 'react';
 import './Footer.css';
 import { FaFacebookF, FaLinkedinIn, FaYoutube, FaInstagram } from 'react-icons/fa';
 import { assets } from '../../assets/assets';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const Footer = () => {
   return (
@@ -27,18 +28,18 @@ const Footer = () => {
         <div className="footer-links">
           <div>
             <h4><Link to='/'>Home</Link></h4>
-            <a href="#what_we_do"><p>What we do</p></a>
-            <a href="#impact-container"><p>Our Impact</p></a>
+            <HashLink smooth to="/#what_we_do"><p>What we do</p></HashLink>
+            <HashLink smooth to="/#impact-container"><p>Our Impact</p></HashLink>
           </div>
           <div>
             <h4><Link to='/about'>About us</Link></h4>
-            <a href='#about-section'><p>About Girija</p></a>
-            <a href='#team-section'><p>Founder</p></a>
+            <HashLink smooth to='/about#about-section'><p>About Girija</p></HashLink>
+            <HashLink smooth to='/about#team-section'><p>Founder</p></HashLink>
           </div>
           <div>
             <h4><Link to='/donate-now'>Donate</Link></h4>
-            <a href='#donation-section'><p>Help Children</p></a>
-            <a href='#contact-container'><p>Contact Us</p></a>
+            <HashLink smooth to='/donate-now#donation-section'><p>Help Children</p></HashLink>
+            <HashLink smooth to='/about#contact-container'><p>Contact Us</p></HashLink>
           </div>
         </div>
       </div>

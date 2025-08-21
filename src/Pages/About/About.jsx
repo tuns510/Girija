@@ -87,10 +87,6 @@ const About = () => {
             <img src={assets.gs} alt="Ganesh Sapling" />
             <p>Ganesh Sapling <span>(Director)</span></p>
           </div>
-          <div className="team-member">
-            <img src={assets.baby} alt="Navin Kumar" />
-            <p>Isha Sapling <span>(Daughter)</span></p>
-          </div>
         </div>
       </section>
 
