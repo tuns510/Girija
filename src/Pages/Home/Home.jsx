@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Home.css'
 import Header from '../../Components/Header/Header'
 import { assets } from '../../assets/assets'
@@ -6,9 +6,45 @@ import Footer from '../../Components/Footer/Footer'
 import { Link } from 'react-router-dom'
 
 const Home = () => {
+
+  useEffect(() => {
+    // ✅ Page Title
+    document.title = "Girija Foundation | Panvel NGO for Children | Girija Ashram";
+
+    // ✅ Meta Description
+    const description = document.querySelector("meta[name='description']");
+    if (description) {
+      description.setAttribute(
+        "content",
+        "Girija Foundation Panvel - Empowering children from vulnerable backgrounds through shelter, education, health, counseling, and life skills since 2004."
+      );
+    } else {
+      const meta = document.createElement("meta");
+      meta.name = "description";
+      meta.content =
+        "Girija Foundation Panvel - Empowering children from vulnerable backgrounds through shelter, education, health, counseling, and life skills since 2004.";
+      document.head.appendChild(meta);
+    }
+
+    // ✅ Meta Keywords
+    const keywords = document.querySelector("meta[name='keywords']");
+    if (keywords) {
+      keywords.setAttribute(
+        "content",
+        "Girija Foundation, Girija Foundation Panvel, Girija Ashram, Girija NGO, Panvel children shelter, Girija Foundation Nere"
+      );
+    } else {
+      const meta = document.createElement("meta");
+      meta.name = "keywords";
+      meta.content =
+        "Girija Foundation, Girija Foundation Panvel, Girija Ashram, Girija NGO, Panvel children shelter, Girija Foundation Nere";
+      document.head.appendChild(meta);
+    }
+  }, []);
+
   return (
     <div>
-      <Header/>
+      <Header />
       <div id="what_we_do">
         <h2>What we do</h2>
         <p>Empowering children from critical backgrounds (orphans, broken families, single-parent homes, etc.) through shelter, education, and life skills.</p>
@@ -44,7 +80,7 @@ const Home = () => {
             <p>We believe in strengthening family ties. Regular meetings with parents ensure they remain involved in their child's growth journey and are part of their long-term well-being.</p>
           </div>
         </div>
-      </div> 
+      </div>
 
       <div className="imgs">
         <img src={assets.img1} alt="" />
@@ -68,7 +104,7 @@ const Home = () => {
           <img src={assets.baby} alt="" />
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   )
 }
