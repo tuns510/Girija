@@ -1,5 +1,10 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "girijafoundation.org" }],
+      "destination": "https://www.girijafoundation.org/:1",
+      "permanent": true
+    }
   ]
 }
