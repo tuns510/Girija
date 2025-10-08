@@ -6,5 +6,8 @@
       "destination": "https://www.girijafoundation.org/:path*",
       "permanent": true
     }
+  ],
+   "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
   ]
 }
