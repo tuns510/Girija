@@ -41,6 +41,20 @@ import movie from './movie.jpeg'
 import masti from './masti.jpeg'
 import school from './school.jpeg'
 import toy from './toy.jpeg'
+import m1 from './mangao1.jpeg'
+import m2 from './mangao2.jpeg'
+import m3 from './mangao3.jpeg'
+import m4 from './mangao4.jpeg'
+import m5 from './m5.jpeg'
+import m6 from './m6.jpeg'
+import m7 from './m7.jpeg'
+import m8 from './m8.jpeg'
+import m9 from './m9.jpeg'
+import m10 from './m10.jpeg'
+import m12 from './m12.jpeg'
+import m13 from './m13.jpeg'
+import m14 from './m14.jpeg'
+import m15 from './m15.jpeg'
 
 export const assets = {
     logo,
@@ -85,8 +99,19 @@ export const assets = {
     movie,
     masti,
     school,
-    toy
-
-
-
+    toy,
+    m1,
+    m2,
+    m3,
+    m4,
+    m5,
+    m6,
+    m7,
+    m8,
+    m9,
+    m10,
+    m12,
+    m13,
+    m14,
+    m15
 }

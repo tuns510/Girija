@@ -77,16 +77,16 @@ const About = () => {
       </section>
 
       <section id="team-section">
-        <h2>Founders & Team</h2>
+        <h2>Founder</h2>
         <div className="team-grid">
           <div className="team-member">
             <img src={assets.sgp2} alt="Sunanda Sapling" />
             <p>Sunanda Sapling <span>(President)</span></p>
           </div>
-          <div className="team-member">
+          {/* <div className="team-member">
             <img src={assets.gs} alt="Ganesh Sapling" />
             <p>Ganesh Sapling <span>(Director)</span></p>
-          </div>
+          </div> */}
         </div>
       </section>
 

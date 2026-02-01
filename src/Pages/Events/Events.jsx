@@ -2,6 +2,8 @@ import React from 'react'
 import './Events.css';
 import { assets } from '../../assets/assets';
 import Footer from '../../Components/Footer/Footer'
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 
 const Events = () => {
@@ -126,11 +128,60 @@ const Events = () => {
                         </div>
                     </div>
 
+                    <div className="cardss">
+                        <img src={assets.m2} alt="Meditation in Nature" />
+                        <div className="card-content">
+                            <p>Our new Aashram at Mangaon.</p>
+                        </div>
+                    </div>
+
+                    <div className="cardss">
+                        <img src={assets.m4} alt="Temple at Sunset" />
+                        <div className="card-content">
+                            <p>Visit to Mangaon Aashram.</p>
+                        </div>
+                    </div>
+
+                    <div className="cardss">
+                        <img src={assets.m1} alt="Peaceful Garden" />
+                        <div className="card-content">
+                            <p>Visit to Sai Mandir.</p>
+                        </div>
+                    </div>
+
+                    <div className="cardss">
+                        <img src={assets.m3} alt="Yoga Class" />
+                        <div className="card-content">
+                            <p>Prayer time at Sai Mandir.</p>
+                        </div>
+                    </div>
+
+
                 </div>
 
             </div>
 
-            <Footer/>
+            <div className="mangaon-section">
+                <h2>Visit Our Mangaon Old Age Ashram</h2>
+                <p>
+                    Our Mangaon Ashram is a dedicated home for senior citizens, providing care,
+                    comfort, dignity, and a peaceful environment in their later years. The
+                    ashram focuses on emotional well-being, health support, and companionship
+                    for the elderly.
+                </p>
+
+                <p>
+                    We welcome well-wishers, volunteers, and supporters who wish to spend time
+                    with our elders and contribute to their happiness.
+                </p>
+
+                <HashLink smooth to='/mangaon#containerr'><button className="btn-primary">
+                    Click Here to Visit Our Mangaon Ashram
+                </button></HashLink>
+            </div>
+
+
+            <Footer />
 
         </div>
     )

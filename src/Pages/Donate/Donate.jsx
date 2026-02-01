@@ -31,54 +31,24 @@ const Donate = () => {
                         <tbody>
                             <tr>
                                 <td>I would like to support for :</td>
-                                <td>One time Snacks</td>
-                                <td>₹1,000</td>
-                            </tr>
-                            <tr>
-                                <td>I would like to support for :</td>
                                 <td>Breakfast</td>
-                                <td>₹2,000</td>
+                                <td>₹1,500</td>
                             </tr>
                             <tr>
                                 <td>I would like to support for :</td>
-                                <td>One Day Meal</td>
+                                <td>Lunch</td>
+                                <td>₹3,000</td>
+                            </tr>
+                            <tr>
+                                <td>I would like to support for :</td>
+                                <td>Dinner</td>
                                 <td>₹5,000</td>
                             </tr>
                             <tr>
                                 <td>I would like to support for :</td>
-                                <td>Monthly Milk</td>
-                                <td>₹7,500</td>
-                            </tr>
-                            <tr>
-                                <td>I would like to support for :</td>
-                                <td>Annual Uniform fee</td>
-                                <td>₹15,000</td>
-                            </tr>
-                            <tr>
-                                <td>I would like to support for :</td>
-                                <td>Monthly Rent</td>
-                                <td>₹25,000</td>
-                            </tr>
-                            <tr>
-                                <td>I would like to support for :</td>
-                                <td>Annual Maintainence</td>
-                                <td>₹60,000</td>
-                            </tr>
-                            <tr>
-                                <td>I would like to support for :</td>
-                                <td>Grocery(6 Months)</td>
-                                <td>₹90,000</td>
-                            </tr>
-                            <tr>
-                                <td>I would like to support for :</td>
-                                <td>Annual Light Bill</td>
-                                <td>₹1,50,000</td>
-                            </tr>
-                            <tr>
-                                <td>I would like to support for :</td>
-                                <td>Annual Rent</td>
-                                <td>₹3,00,000</td>
-                            </tr>
+                                <td>Full Day</td>
+                                <td>₹7,000</td>
+                            </tr>       
                         </tbody>
                     </table>
                 </div>

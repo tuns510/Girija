@@ -27,17 +27,17 @@ const Footer = () => {
 
         <div className="footer-links">
           <div>
-            <h4><Link to='/'>Home</Link></h4>
+            <h4><Link to='/#header'>Home</Link></h4>
             <HashLink smooth to="/#what_we_do"><p>What we do</p></HashLink>
             <HashLink smooth to="/#impact-container"><p>Our Impact</p></HashLink>
           </div>
           <div>
-            <h4><Link to='/about'>About us</Link></h4>
+            <h4><HashLink smooth to='/about#about-section'>About us</HashLink></h4>
             <HashLink smooth to='/about#about-section'><p>About Girija</p></HashLink>
             <HashLink smooth to='/about#team-section'><p>Founder</p></HashLink>
           </div>
           <div>
-            <h4><Link to='/donate-now'>Donate</Link></h4>
+            <h4><HashLink to="/donate-now#donation-section" smooth>Donate</HashLink></h4>
             <HashLink smooth to='/donate-now#donation-section'><p>Help Children</p></HashLink>
             <HashLink smooth to='/about#contact-container'><p>Contact Us</p></HashLink>
           </div>

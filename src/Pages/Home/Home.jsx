@@ -4,6 +4,7 @@ import Header from '../../Components/Header/Header'
 import { assets } from '../../assets/assets'
 import Footer from '../../Components/Footer/Footer'
 import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link';
 
 const Home = () => {
 
@@ -96,14 +97,28 @@ const Home = () => {
           <p><span>Children Helped:</span> 300+ children enrolled in schools and rehabilitated</p>
           <p><span>Schools Partnered:</span> New English School, Nere; Nere High School; Nere Junior Arts and Commerce College</p>
           <div className="impact-btn">
-            <Link to='/donate-now'><button className='btn-primary'>Donate Now</button></Link>
-            <Link to='/about'><button className='btn-secondary'>Learn More</button></Link>
+            <HashLink to="/donate-now#donation-section" smooth><button className='btn-primary'>Donate Now</button></HashLink>
+            <HashLink smooth to='/about#about-section'><button className='btn-secondary'>Learn More</button></HashLink>
           </div>
         </div>
         <div id="Impact-img">
           <img src={assets.baby} alt="" />
         </div>
       </div>
+
+      <a
+        href="https://wa.me/919969339091?text=Hello, i wanted to know more about Girija Foundation."
+        className="whatsapp-float"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Chat on WhatsApp"
+      >
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+          alt="WhatsApp"
+        />
+      </a>
+
       <Footer />
     </div>
   )

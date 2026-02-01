@@ -4,12 +4,46 @@
   box-sizing: border-box;
 }
 
+.mangaon-section {
+  margin: 60px auto;
+  padding: 5px 25px;
+  max-width: 900px;
+  text-align: center;
+  background-color: #f7f9fc;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.mangaon-section h2 {
+  font-size: 28px;
+  color: #222;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.mangaon-section p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 18px;
+}
+
+.mangaon-section .btn-primary {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 30px;
+  font-size: 16px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+
 .container {
   max-width: 1200px;
   margin: auto;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 h4 {
@@ -71,5 +105,20 @@ h4 {
 
   h1 {
     font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .mangaon-section {
+    padding: 30px 18px;
+    margin: 40px 15px;
+  }
+
+  .mangaon-section h2 {
+    font-size: 22px;
+  }
+
+  .mangaon-section p {
+    font-size: 15px;
   }
 }
